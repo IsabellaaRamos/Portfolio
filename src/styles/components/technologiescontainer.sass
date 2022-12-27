@@ -1,0 +1,110 @@
+@use '../variables'
+@use '../mixins'
+
+
+.technologies-container
+    margin-bottom: 1rem
+
+    .technologies-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+        .technology-card
+            @include mixins.center
+            gap: 1rem
+            padding: 1rem
+            border: 1.5px solid #f721db85
+            width: 48%
+            border-radius: variables.$card-border-radius
+
+            h3
+                color: variables.$text-color
+                margin-bottom: 1rem
+                
+      
+
+            svg
+                font-size: 6rem
+                
+
+        
+
+        #html
+            svg   
+                color: variables.$gradient-secundary
+            &:hover
+                > svg   
+                    color: #E44D26
+
+        #css
+            svg   
+                color: variables.$gradient-secundary
+            &:hover
+                > svg   
+                    color: #0188c8
+        
+        #js
+            svg   
+                color: variables.$gradient-secundary
+            &:hover
+                > svg   
+                    color: #f0db4f
+
+        #node
+            svg   
+                color: variables.$gradient-secundary
+            &:hover
+                > svg   
+                    color: #83cd29
+
+        #react
+            svg   
+                color: variables.$gradient-secundary
+            &:hover
+                > svg   
+                    color: #61dafb
+
+        #python
+            svg
+                color: variables.$gradient-secundary
+            &:hover
+                > svg   
+                    color: #3773a5
+
+        #sass
+            svg
+                color: variables.$gradient-secundary
+            &:hover
+                > svg   
+                    color: #c36291
+        
+
+        #ts
+            svg
+                color: variables.$gradient-secundary
+            &:hover
+                > svg   
+                    color: #0074c2
+
+        // .html
+        //     @include mixins.center
+        //     gap: 1rem
+        //     padding: 1rem
+        //     border: 1.5px solid #f721db85
+        //     width: 45%
+        //     border-radius: variables.$card-border-radius
+
+        //     h3
+        //         color: variables.$text-color
+        //         margin-bottom: 1rem
+                
+      
+
+        //     svg
+        //         font-size: 6rem
+                
+
+        //     &:hover
+        //         > svg   
+        //             color: #E44D26

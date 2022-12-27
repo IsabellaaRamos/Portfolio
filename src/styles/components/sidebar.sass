@@ -1,0 +1,86 @@
+@use '../variables'
+@use '../mixins'
+
+#sidebar
+    background-color: variables.$bg-color
+    flex: .8 1 0
+    border-radius: variables.$container-border-radius
+    display: flex
+    align-items: center
+    flex-direction: column
+    text-align: center
+    position: relative
+    padding: 3rem 0
+    border: 1.5px solid #f721db85
+
+    img
+        width: 270px
+        height: 400px
+        border-radius: 10px
+        position: absolute
+        top: -3rem
+        border: 3px solid #f721db85
+
+    .title0
+        @keyframes typing 
+                from
+                  width: 0.5ch
+                
+        @keyframes blinking 
+            50%
+                border-color: transparent
+        
+        color: variables.$text-color-secondary
+        background-color: variables.$bg-color-secondary
+        border-radius: variables.$card-border-radius
+        margin-top: 25rem
+        padding: .8rem 0.2rem
+        border: 1.5px solid #f721db85
+        font-family:  monospace
+        border-right: 4px solid
+        width: 15ch
+        white-space: nowrap        
+        overflow: hidden
+        animation: typing 3s steps(10) infinite ,blinking 2s  infinite
+    
+
+    .title
+        color: variables.$text-color-secondary
+        background-color: variables.$bg-color-secondary
+        border-radius: variables.$card-border-radius
+        margin-top: 1rem
+        padding: .8rem 1.2rem
+        border: 1.5px solid #f721db85
+    
+    .title2
+        color: variables.$text-color-secondary
+        background-color: variables.$bg-color-secondary
+        border-radius: variables.$card-border-radius
+        margin-top: 1rem
+        padding: .8rem 1.2rem
+        border: 1.5px solid #f721db85
+
+    
+
+    .btn
+        @include mixins.btn
+        margin-top: 10rem
+
+
+    #download1
+        .btn-dv1
+            @include mixins.btn
+        :hover
+            background: variables.$btn-color-solido
+             
+
+
+        
+
+
+
+        
+    
+
+
+    

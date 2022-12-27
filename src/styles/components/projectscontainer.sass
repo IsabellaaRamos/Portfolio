@@ -1,0 +1,45 @@
+@use '../variables'
+@use '../mixins'
+
+.projects-container
+    .meus-projetos
+        display: flex
+        flex-wrap: wrap
+        gap: 1rem
+
+
+        .projeto-card
+            @include mixins.center
+            gap: 1rem
+            display: flex
+            flex-wrap: wrap
+            padding: 1rem
+            border: 1px solid #f721db85
+            width: 32%
+            border-radius: variables.$card-border-radius
+
+            h3
+                color: variables.$text-color
+                margin-bottom: 1rem
+                margin-top: 1rem
+                
+      
+
+            img
+                width: 150px
+                height: 150px
+                border-radius: 10px
+                border: 1.5px solid #f721db85
+                background-image: './ilustracao.jpg'
+
+            .image-proj
+                &:hover
+                    border: 5px solid #f721db85
+                    opacity: 0.6
+                    
+
+
+            // #projeto1
+            // #projeto2
+            // #projeto3
+            
