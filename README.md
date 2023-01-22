@@ -1,5 +1,5 @@
 # Portfólio
-<h1 align="center"> Habits </h1>
+<h1 align="center"> Portfólio </h1>
 
 <p align="center">
 Portfólio. <br/>
@@ -31,4 +31,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 .
 
-- [Visite o projeto online](https://isabellaaramos.github.io/nlw-habits)
+- [Visite o projeto online](https://isabellaaramos.github.io/Portfolio/)
